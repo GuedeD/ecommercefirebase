@@ -19,7 +19,7 @@ const Cart = () => {
         "pk_test_51Jr1G2ARCBFsDeLfkg5hGtn3zXStVRwi4LEaZ84OjTK871mYdKbpYwmXjYhttYUmtgo2WHc6JAvNCKZk8xhv1f8900dW46oT0E"
       );
       const response = await axios.post(
-        "http://localhost:8000/api/create-checkout-session",
+        "https://ecommercefirebase-stripe.onrender.com/api/create-checkout-session",
         {
           products,
         }
